@@ -9,11 +9,11 @@ const Header = () => {
         <h2>React Menu</h2>
       </header>
 
-      <div>
+      <div className={classes['img-container']}>
         <img
         src={mealHeader}
         alt="header picture"
-         className={classes.headerImg} />
+        className={classes.headerImg} />
       </div>
     </Fragment>
   )
