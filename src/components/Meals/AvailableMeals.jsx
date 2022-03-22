@@ -21,7 +21,7 @@ const DUMMY_MEAL = [
 ];
 
 const AvailableMeals = () => {
-  const mealsList = DUMMY_MEAL.forEach(meal => <li>{meal.name}</li>)
+  const mealsList = DUMMY_MEAL.map(meal => <li>{meal.name}</li>)
   return (
     <section>
       <ul>
