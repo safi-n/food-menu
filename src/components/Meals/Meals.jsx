@@ -1,8 +1,13 @@
-import React from 'react'
+import { Fragment } from "react"
+import AvailableMeals from "./AvailableMeals"
+import Summary from "./Summary"
 
-const Meals = props => {
+const Meals = () => {
   return (
-    <div>Meals</div>
+    <Fragment>
+      <Summary/>
+      <AvailableMeals/>
+    </Fragment>
   )
 }
 
