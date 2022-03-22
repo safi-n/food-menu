@@ -6,7 +6,7 @@ const HeaderCartButton = () => {
     <button className={classes['cart-button']}>
       <span><ShoppingCartIcon/></span>
       <span>Your Cart</span>
-      <span>0</span>
+      <span className={classes['cart-added']}>0</span>
     </button>
   )
 }
