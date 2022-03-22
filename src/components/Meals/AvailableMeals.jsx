@@ -1,4 +1,5 @@
 import React from 'react'
+import classes from './available.module.css'
 const DUMMY_MEAL = [
   {
     id: 'm1',
@@ -23,7 +24,7 @@ const DUMMY_MEAL = [
 const AvailableMeals = () => {
   const mealsList = DUMMY_MEAL.map(meal => <li>{meal.name}</li>)
   return (
-    <section>
+    <section className={classes['meals-list']}>
       <ul>
         {mealsList}
       </ul>
