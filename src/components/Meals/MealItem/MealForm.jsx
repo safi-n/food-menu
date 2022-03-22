@@ -5,7 +5,7 @@ const MealForm = props => {
   return (
     <form className={classes['input-form']}>
       <input type="text" />
-      <button>+ add</button>
+      <button>+</button>
     </form>
   );
 };
