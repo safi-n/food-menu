@@ -18,18 +18,21 @@
 }
 
 .input-form button {
-  color: rgb(5, 72, 101);
-  width: 2.3rem;
-  height: 2.3rem;
+  padding: 0.2rem 0.7rem;
   margin-left: 1rem;
   margin-right: 1rem;
   font-size: 1.6rem;
   border-radius: 50%;
-  background-color: white;
   box-shadow: 0px 0px 3px #ccc;
   border: 1px solid rgb(0, 45, 94);
+  color: rgb(255, 255, 255);
+  background-color: rgb(6, 45, 94);
 }
+
 .input-form button:hover {
   border: 1px solid #ccc;
-  color: black;
+  color: rgb(5, 72, 101);
+  background-color: white;
+  font-size: 2rem;
+  padding: 0.3rem 0.9rem;
 }
