@@ -6,7 +6,6 @@ import Modal from './components/UI/Modal';
 function App() {
   return (
     <Fragment>
-      <Modal/>
       <Header />
       <main>
         <Meals/>
