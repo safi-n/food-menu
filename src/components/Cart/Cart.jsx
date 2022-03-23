@@ -13,8 +13,8 @@ const Cart = () => {
       <span>21</span>
     </div>
     <div>
-      <button>Order</button>
-      <button>Cancel</button>
+      <button>close</button>
+      <button>order</button>
     </div>
   </div>
   );
