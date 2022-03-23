@@ -1,0 +1,43 @@
+.list-item {
+  list-style: none;
+  font-size: 1.1rem;
+  color: rgb(8, 73, 130);
+  margin-bottom: 1rem;
+}
+
+.amount {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.5rem;
+  padding-bottom: 0.8rem;
+  font-weight: bold;
+
+}
+
+.button-area {
+  display: flex;
+  justify-content: right;
+}
+
+.btn-danger {
+  color: rgb(0, 0, 0);
+  width: 6rem;
+  height: 2.3rem;
+  background-color: white;
+  border: 1px solid rgb(179, 52, 52);
+  border-radius: 4px;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.btn-success {
+  color: black;
+  width: 6rem;
+  height: 2.3rem;
+  background-color: white;
+  border: 1px solid rgb(70, 167, 38);
+  border-radius: 4px;
+  font-size: 1rem;
+  text-align: center;
+  margin-left: 0.7rem;
+}
