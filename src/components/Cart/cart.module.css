@@ -29,6 +29,10 @@
   font-size: 1rem;
   text-align: center;
 }
+.btn-danger:hover{
+  color: white;
+  background-color: rgb(179, 52, 52);
+}
 
 .btn-success {
   color: black;
@@ -40,4 +44,8 @@
   font-size: 1rem;
   text-align: center;
   margin-left: 0.7rem;
+}
+.btn-success:hover{
+  color: white;
+  background-color: rgb(70, 167, 38);
 }
