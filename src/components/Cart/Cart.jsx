@@ -1,4 +1,5 @@
 import React from "react";
+import Modal from "../UI/Modal";
 
 const Cart = () => {
   const cartItems = [
@@ -6,7 +7,7 @@ const Cart = () => {
   ].map((item) => <li>{item.name}</li>);
 
   return (
-  <div>
+  <Modal>
     {cartItems}
     <div>
       <span>Total amount</span>
@@ -16,7 +17,7 @@ const Cart = () => {
       <button>close</button>
       <button>order</button>
     </div>
-  </div>
+  </Modal>
   );
 };
 
