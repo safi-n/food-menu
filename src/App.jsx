@@ -4,7 +4,7 @@ import Cart from './components/Cart/Cart';
 import Header from './components/Layout/Header';
 import Meals from './components/Meals/Meals';
 import Modal from './components/UI/Modal';
-import CartContext from './context/cart-context';
+import CartProvider from './context/CartProvider';
 function App() {
   const [cartIsShown, setCartIsShown] = useState(false)
   const showCartHandler = () => {
@@ -14,7 +14,7 @@ function App() {
     setCartIsShown(false)
   }
   return (
-    <CartContext>
+    <CartProvider>
       {cartIsShown && <Cart onHideCart={hideCartHandler} />}
       <Header onShowCart={showCartHandler}/>
       <main>
@@ -23,7 +23,7 @@ function App() {
       <footer className="footer">
         <h2>&copy; 2022</h2>
       </footer>
-    </CartContext>
+    </CartProvider>
   );
 }
 
