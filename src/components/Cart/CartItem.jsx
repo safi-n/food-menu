@@ -1,23 +1,23 @@
-import React from 'react'
-import classes from './cartItem.module.css'
+import React from "react";
+import classes from "./cartItem.module.css";
 
-const CartItem = props => {
-  const price = `$${props.price.toFixed(2)}`
+const CartItem = (props) => {
+  const price = `$${props.price.toFixed(2)}`;
   return (
-    <li className={classes["cart-item"]}>
-      <div>
-        <h2>{props.name}</h2>
+      <li className={classes["cart-item"]}>
         <div>
-          <span className={classes.amount}>{props.amount}</span>
-          <span className={classes.price}>{price}</span>
+          <h2>{props.name}</h2>
+          <div className={classes.summary}>
+            <span className={classes.price}>{price}</span>
+            <span className={classes.amount}>{props.amount}</span>
+          </div>
         </div>
-      </div>
-      <div className={classes.action}>
-        <button onClick={props.onAdd}>+</button>
-        <button onClick={props.onRemove}>-</button>
-      </div>
-    </li>
+        <div className={classes.actions}>
+          <button onClick={props.onAdd}>+</button>
+          <button onClick={props.onRemove}>-</button>
+        </div>
+      </li>
   );
-}
+};
 
-export default CartItem
+export default CartItem;

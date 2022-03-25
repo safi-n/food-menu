@@ -11,13 +11,11 @@
 .modal {
   position: fixed;
   width: 70%;
-  height: 12vh;
   background-color: white;
   margin: auto;
   left: 15%;
-  top: 15rem;
+  top: 9rem;
   border-radius: 4px;
   z-index: 20;
-  /* display: flex; */
   padding: 2rem;
 }
