@@ -8,7 +8,7 @@ const MealForm = (props) => {
   const amountInputref = useRef();
 
   const submitHandler = (event) => {
-    event.prevenDefault();
+    event.preventDefault();
 
     const enteredAmount = amountInputref.current.value;
     const enteredAmountNumber = +enteredAmount;
