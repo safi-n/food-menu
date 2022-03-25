@@ -3,9 +3,11 @@ import Card from "../UI/Card";
 import classes from "./available.module.css";
 import MealItem from "./MealItem/MealItem";
 const DUMMY_MEAL = [
-  {id: "m1",name: "Pasta",price: 95,description: "Italian Pasta, ma maa mia"},
-  {id: "m2",name: "Spegatie",price: 60,description: "Bolegian Hot spegatie, ma maa mia"},
-  {id: "m3",name: "Shorwa",price: 120,description: "Afghani home made soup"},
+  {id: "m1",name: "Pasta",price: 21,description: "Italian Pasta, ma maa mia"},
+  {id: "m2",name: "Spegatie",price: 14,description: "Bolegian Hot spegatie, ma maa mia"},
+  {id: "m3",name: "Shorwa",price: 34,description: "Afghani home made soup"},
+  {id: "m4",name: "Biryani",price: 12,description: "Afghani home made soup"},
+  {id: "m5",name: "Manto",price: 23,description: "Afghani home made soup"}
 ];
 
 const AvailableMeals = () => {
